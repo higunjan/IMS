@@ -1,7 +1,7 @@
 var app = angular.module("myApp", []);
 
 app.controller("myCtrl", function($scope, $http) {
-    var hostname = "http://192.168.1.22:1337/",
+    var hostname = window.location.origin+"/",
         updateId = 0;
 
     $scope.updateButton = false;
