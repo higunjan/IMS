@@ -1,8 +1,8 @@
 {
-  "name": "demo",
+  "name": "IMS",
   "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
+  "version": "0.0.1",
+  "description": "IMS demo application",
   "keywords": [],
   "dependencies": {
     "ejs": "2.3.4",
@@ -25,13 +25,13 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "sails lift"
   },
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/snow22/demo.git"
+    "url": "git://github.com/higunjan/IMS.git"
   },
-  "author": "snow22",
+  "author": "Gunjan",
   "license": ""
 }

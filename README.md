@@ -1,3 +1,2 @@
 # demo
-
-a [Sails](http://sailsjs.org) application
+a IMS demo Application using [Sails](http://sailsjs.org).
